@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="me.darrillaga.torgonudo.viewer.view.PendingDeliveryOrdersActivity"
+            android:name="me.darrillaga.torgonudo.viewer.viewpendingorders.view.PendingDeliveryOrdersActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_pending_deliveries"
             android:theme="@style/FullscreenTheme">

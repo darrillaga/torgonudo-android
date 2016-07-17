@@ -1,4 +1,4 @@
-package me.darrillaga.torgonudo.viewer.view;
+package me.darrillaga.torgonudo.viewer.viewpendingorders.view;
 
 import android.support.v7.app.AppCompatActivity;
 
