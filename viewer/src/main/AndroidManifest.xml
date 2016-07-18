@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="me.darrillaga.torconudo"
+<manifest package="me.darrillaga.torgonudo.viewer"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application

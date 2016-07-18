@@ -8,7 +8,7 @@ android {
     buildToolsVersion "$support_version"
 
     defaultConfig {
-        applicationId "me.darrillaga.torconudo.viewer"
+        applicationId "me.darrillaga.torgonudo.viewer"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
@@ -30,6 +30,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res-main',
+                    'src/main/res-feature/view-pending-deliveries'
+            ]
+        }
+    }
 }
 
 retrolambda {
@@ -39,6 +48,8 @@ retrolambda {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(':commons')
 
     compile "com.google.firebase:firebase-core:$firebase_version"
     compile "com.google.firebase:firebase-crash:$firebase_version"

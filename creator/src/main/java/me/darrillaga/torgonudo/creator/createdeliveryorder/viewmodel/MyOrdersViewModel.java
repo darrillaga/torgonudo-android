@@ -1,4 +1,4 @@
-package me.darrillaga.torgonudo.viewer.viewpendingorders.viewmodel;
+package me.darrillaga.torgonudo.creator.createdeliveryorder.viewmodel;
 
 import android.databinding.ObservableArrayList;
 import android.databinding.ObservableBoolean;
@@ -12,14 +12,14 @@ import java8.util.stream.StreamSupport;
 import me.darrillaga.torgonudo.commons.model.DeliveryOrder;
 import rx.Observable;
 
-public class ViewPendingOrdersViewModel {
+public class MyOrdersViewModel {
 
     public final ObservableList<DeliveryOrderViewModel> deliveryOrders;
     public final ObservableBoolean loadingOrders;
 
     private DatabaseReference mDatabaseReference;
 
-    public ViewPendingOrdersViewModel(DatabaseReference databaseReference) {
+    public MyOrdersViewModel(DatabaseReference databaseReference) {
         mDatabaseReference = databaseReference;
         deliveryOrders = new ObservableArrayList<>();
         loadingOrders = new ObservableBoolean();

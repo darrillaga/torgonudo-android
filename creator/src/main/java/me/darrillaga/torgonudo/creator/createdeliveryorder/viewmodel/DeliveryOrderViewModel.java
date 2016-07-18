@@ -1,4 +1,4 @@
-package me.darrillaga.torgonudo.viewer.viewpendingorders.viewmodel;
+package me.darrillaga.torgonudo.creator.createdeliveryorder.viewmodel;
 
 import me.darrillaga.torgonudo.commons.model.DeliveryOrder;
 
