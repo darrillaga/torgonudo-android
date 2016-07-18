@@ -12,6 +12,7 @@
             android:name="me.darrillaga.torgonudo.viewer.viewpendingorders.view.PendingDeliveryOrdersActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_pending_deliveries"
+            android:screenOrientation="landscape"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
